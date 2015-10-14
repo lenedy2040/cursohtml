@@ -1,0 +1,76 @@
+body {
+    background-color: C1E070;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+body p {
+    text-transform: uppercase;
+    color: white;
+    margin: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#main-container {
+    background-color: #A3D038;
+    width: 990px;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+#main-container .container {
+    margin: 10px;
+    background-color: #84BB18;
+    overflow: hidden;
+}
+
+#main-container #position-container {
+    position: relative;
+}
+
+#main-container #position-container div {
+    margin: 10px;
+    background-color: #008000;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+
+#main-container #position-container #fixed-container {
+    position: fixed;
+    top: 114px;
+    left: 169px;
+}
+
+#main-container #position-container #absolute-container {
+    position: absolute;
+}
+
+#main-container #position-container #relative-container {
+    position: relative;
+}
+
+#main-container #floating-container {}
+
+#main-container #floating-container .floating {
+    height: 50px;
+    overflow: hidden;
+    float: left;
+    background-color: #14961E;
+    margin: 0px 10px 10px 10px;
+    cursor: pointer;
+}
+
+#main-container #floating-container .non-floating {
+    background-color: #A6CE09;
+    height: 50px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+#main-container #floating-container div:last-child {
+    clear: left;
+}

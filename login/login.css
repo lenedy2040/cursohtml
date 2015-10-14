@@ -1,0 +1,65 @@
+body{
+	background: #C5E8E8;
+}
+
+#main-container {
+	width: 384px;
+	background-color:#5ABBE0;
+	overflow: hidden;
+	padding: 10px;
+	margin:0px;
+}
+
+#main-container p{
+	color: white;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	width: auto;
+	display: inline-block;
+}
+
+#main-container #logo{
+	width:90%;
+	background-color: white;
+	margin: 10px auto;
+}
+#main-container #login{
+	width:90%;
+	margin: 10px auto;
+}
+#main-container #login .login-field{
+	width: 90%;
+	padding: 10px;
+	border-color: white;
+	border-radius: 5px;
+	border-style: solid;
+	margin: 10px auto;
+}
+#main-container #login p{
+	width: 100px;
+}
+
+#main-container #login .input-field{
+	display: inline-block;
+	width: auto;
+	border-style: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    padding: 5px 3px;
+    color: white;
+    letter-spacing: 2px;
+    outline-style: none;
+}
+
+#main-container #new-user{
+	width:90%;
+	margin: 10px auto;
+}
+
+#main-container #new-user p{
+	margin: 10px auto;
+	width: auto;
+	padding: 10px;
+}
+
